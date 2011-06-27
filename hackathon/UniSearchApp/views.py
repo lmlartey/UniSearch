@@ -9,4 +9,4 @@ def hello(request):
 
 def current_time(request):
 	now=datetime.datetime.now()
-	return render_to_response('current_time.html',{'current_date':now})
+	return render_to_response('base.html',{'current_date':now})
