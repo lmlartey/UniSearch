@@ -20,5 +20,6 @@ class University:
 
 	
 
-
+admin.site.register(University)
+admin.site.register(Hostels)
 
