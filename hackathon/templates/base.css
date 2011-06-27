@@ -4,7 +4,29 @@ body {
 }
 
  h2{
- 	background-color: #00ff00;
+ 	background-color: #0000ff;
  	font-style: italic;
  	font-size: 50px;
-  }sss
+  }
+
+#nav{
+	position: absolute;
+	left:0px;
+	top: 100px;
+	width: 150px;
+	height:500px;
+	background-color: #eee; 
+}
+
+#content{
+	position: absolute;
+	left:0px;
+	top: 100px;
+	width: 300px;
+	height:500px;
+	background-color: #ccc; 
+}
+
+#
+	
+	

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>UniSearch</title>
-		<
+		<link rel="stylesheet" type="text/css" href="base.css" />
 	</head>
 	<body>
 		<h2 align="center">Unisearch</h2>
@@ -16,9 +16,16 @@
 				<li><a href="">Previous</a></li>
 				<li><a href="">Next</a></li>
 			</ul>
+			{% block university%}
+			{% endblock %}
 		</div>
 		<div id="content">
-			
+			{% block content%}
+			{% endblock%}
+		</div>
+		<div id="filter">
+			{%block city}
+			{% endblock %}
 		</div>
 	</body>
 </html>

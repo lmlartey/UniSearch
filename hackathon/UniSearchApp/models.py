@@ -17,9 +17,13 @@ class University(models.Model):
 	name = models.CharField(max_length=60)
 	description = models.TextField()
 	location = models.CharField(max_length=60)
-
 	
+class HostelsAdmin(admin.ModelAdmin):
+	pass 
+	
+class UniversityAdmin(admin.ModelAdmin):
+	pass	
 
-admin.site.register(Hostels)
-admin.site.register(University)
+admin.site.register(Hostels, HostelsAdmin)
+admin.site.register(University, UniversityAdmin)
 
