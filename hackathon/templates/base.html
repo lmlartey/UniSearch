@@ -8,23 +8,31 @@
 	</head>
 	<body>
 		<h2 align="center">Unisearch</h2>
+		<div id="university_list">
+			<ul>
 			{% block plug %}
 			{% endblock %}
+			</ul>
+		</div>
  		<div><marquee>thanks for using our site</marquee></div>
 		<div id="nav">
 			<ul>
 				<li><a href="">Previous</a></li>
 				<li><a href="">Next</a></li>
 			</ul>
+			
 			{% block university%}
 			{% endblock %}
+			
 		</div>
 		<div id="content">
-			{% block content%}
+		
+			{% block content %}
 			{% endblock %}
+		
 		</div>
 		<div id="filter">
-			{%block city}
+			{% block city %}
 			{% endblock %}
 		</div>
 	</body>

@@ -1,0 +1,10 @@
+
+{% extends 'hackathon/base.html'%}
+
+{% block plug%}
+ {%for university in university_list%}
+ 	<a href="/hostel.html">{{university.name}}</a>
+ {% endfor%} 
+
+{% endblock %}
+
